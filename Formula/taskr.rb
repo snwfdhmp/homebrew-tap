@@ -9,7 +9,7 @@ class Taskr < Formula
   depends_on "zsh"
 
   def install
-    bin.install "program"
+    bin.install "taskr"
   end
 
   def caveats
